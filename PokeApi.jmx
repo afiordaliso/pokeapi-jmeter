@@ -46,7 +46,7 @@
         
         <!-- Result Collector para resultados en formato .jtl -->
         <ResultCollector guiclass="ResultCollector" testclass="ResultCollector" testname="Result Collector">
-          <stringProp name="filename">C:/Programas/jmx/results/test_results.jtl</stringProp>
+          <stringProp name="filename">C:/Programas/jmx/results/resultados.jtl</stringProp>
           <objProp>
             <name>saveConfig</name>
             <value class="SampleSaveConfiguration">
@@ -82,9 +82,9 @@
         </ResultCollector>
         <hashTree/>
         
-        <!-- Result Collector para el reporte resumen (HTML) -->
+        <!-- Result Collector para el reporte HTML -->
         <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">C:/Programas/jmx/results/report.html</stringProp>
         </ResultCollector>
         <hashTree/>
         
