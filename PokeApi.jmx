@@ -46,7 +46,7 @@
         
         <!-- Result Collector para resultados en formato .jtl -->
         <ResultCollector guiclass="ResultCollector" testclass="ResultCollector" testname="Result Collector">
-          <stringProp name="filename">C:/Programas/jmx/results/resultados.jtl</stringProp>
+          <stringProp name="filename">C:/Programas/jmx/results/resultado.jtl</stringProp>
           <objProp>
             <name>saveConfig</name>
             <value class="SampleSaveConfiguration">
