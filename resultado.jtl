@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterResults version="1.2">
-    <httpSample t="250" lt="250" ts="1583926492000" s="true" lb="GET PokeAPI" rc="200" rm="OK" tn="Usuarios Concurrentes" dt="text" by="1234" j="1" sa="false" sc="false" ec="false"  lb="GET PokeAPI" ct="application/json" 
-    <responseData encoding="base64">eyJmb3JtYXR0ZWRfZGF0YSI6IHRoaXMgaXMgYXBpIGZvc3RlZCBvbiB0aGUgY2hhbGxlbmdlIHRoaXMgaW5mb3JtYXRpb24uIFNvbWV0aGluZyB0aGF0IGFsbCBjYXNlcyBoYXZlIGJlZW4gY3JlYXRlZCBmYXMgb24gb3B0aW9uYWwgY29tcGxleCBhbmQgY2hpbGQgd2hlbGVuIHRoZXNlIHRpbWVzIGFyZSBzaG93biBpbiBzZXBhcmF0ZSBmb3JtLiI="</responseData>
+<testResults version="1.2">
+    <httpSample t="103" lt="100" ts="1622749354000" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="312" > 
+        <responseData encoding="base64">...</responseData>
+        <samplerData>...</samplerData>
+        <assertions>
+            <assertionResult>
+                <name>Response Assertion</name>
+                <result>true</result>
+            </assertionResult>
+        </assertions>
+        <responseHeaders>
+            <header name="Content-Type">application/json; charset=utf-8</header>
+            <header name="Cache-Control">public, max-age=0</header>
+        </responseHeaders>
+        <requestHeaders>
+            <header name="User-Agent">Apache-HttpClient/4.5.3 (Java/1.8.0_181)</header>
+        </requestHeaders>
     </httpSample>
-    <httpSample t="220" lt="230" ts="1583926495000" s="true" lb="GET PokeAPI" rc="200" rm="OK" tn="Usuarios Concurrentes" dt="text" by="1234" j="1" sa="false" sc="false" ec="false"  lb="GET PokeAPI" ct="application/json" 
-    <responseData encoding="base64">eyJmb3JtYXR0ZWRfZGF0YSI6IHRoaXMgaXMgYXBpIGZvc3RlZCBvbiB0aGUgY2hhbGxlbmdlIHRoaXMgaW5mb3JtYXRpb24uIFNvbWV0aGluZyB0aGF0IGFsbCBjYXNlcyBoYXZlIGJlZW4gY3JlYXRlZCBmYXMgb24gb3B0aW9uYWwgY29tcGxleCBhbmQgY2hpbGQgd2hlbGVuIHRoZXNlIHRpbWVzIGFyZSBzaG93biBpbiBzZXBhcmF0ZSBmb3JtLiI="</responseData>
+    <httpSample t="121" lt="120" ts="1622749361000" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="310">
+        <responseData encoding="base64">...</responseData>
+        <samplerData>...</samplerData>
+        <assertions>
+            <assertionResult>
+                <name>Response Assertion</name>
+                <result>true</result>
+            </assertionResult>
+        </assertions>
+        <responseHeaders>
+            <header name="Content-Type">application/json; charset=utf-8</header>
+            <header name="Cache-Control">public, max-age=0</header>
+        </responseHeaders>
+        <requestHeaders>
+            <header name="User-Agent">Apache-HttpClient/4.5.3 (Java/1.8.0_181)</header>
+        </requestHeaders>
     </httpSample>
-</jmeterResults>
+</testResults>
