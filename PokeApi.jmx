@@ -84,7 +84,7 @@
         
         <!-- Result Collector para el reporte HTML -->
         <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
-          <stringProp name="filename">C:/Programas/jmx/results/report.html</stringProp>
+          <stringProp name="filename">index.html</stringProp>
         </ResultCollector>
         <hashTree/>
         
